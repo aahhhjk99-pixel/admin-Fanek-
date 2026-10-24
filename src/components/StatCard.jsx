@@ -1,1 +1,1 @@
-
+export default function StatCard({label,value,detail,icon:Icon}){return <article className="stat-card"><div className="stat-top"><span>{label}</span><div className="stat-icon">{Icon&&<Icon size={19}/>}</div></div><strong>{value??'—'}</strong><small>{detail||'من قاعدة البيانات المباشرة'}</small></article>}
